@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let programRunning=true
+        const customer = +prompt
+            (`1.ən yaxın personala qoşulmaq
+2.müştəri xidmətləri haqqında məlumat
+3.sifariş dəyişdirmək
+4.mal haqqında məlumat almaq
+5.ləğv et`)
+        switch (customer) {
+            case 1:
+                alert("ən yaxın personalla əlaqə saxlanılır...")
+                break;
+            case 2:
+                alert(`müştəri xidmətləri hər zaman sizin problemlərinizi həll etməyə hazırdır`)
+                break;
+                case 3:
+                let order=+prompt(`sifariş nömrəsini yazın`)
+                if (isNaN(order)) {
+                    alert("rəqəm daxil et")
+                    break
+                }
+                if (order<0) {
+                    alert("adam kimi rəqəm yazın")
+                    break
+                }
+                if (10000>order<1000000) {
+                    alert(`6 rəqəmli ədəd daxil et`)
+                    break
+                }
+                break;
+                case 4:
+                let order2=prompt(`mal adını yazın`)
+                alert(
+                `mal İD si----787234
+                qiyməti----100AZN
+                çəkisi----500q
+                anbarda var`
+                )
+                break;
+                case 5:
+                programRunning=false
+                break;
+            default:
+                alert("1 ilə 5 arasında ədəd seç")
+                break;
+        }
+    </script>
+</body>
+
+</html>

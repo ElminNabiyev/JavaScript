@@ -1,0 +1,51 @@
+1)javascrptdəki datatyplar:
+Number-müəyyən aralıqlı rəqəmdən ibarətdir
+String-yazıdır.char toplusundan ibarətdir
+Boolean-true və ya false qiymətini alır
+Array-elementlət toplusudur.String number boolean hər biri ola bilər.
+Object-hər hansı bir obyektə dair bütün ola biləcək dəyərlər (Məsələn:adı-BMW çəkisi-1ton model-F10 il-2015)
+2)şərt operatoları if(şərt ödənsə aşağıdakı baş verir) ödənməsə else baş verir.Aralıq qiymət varsa istifadə olunur.
+Ternary əgər bir sətlik koddursa- şərt?if hissəsi:else hissəsi
+swith-case əgər dəqiq dəyərə sahibdirsə istifadə olunur.
+3)döngüləri 3 cür göstərə bilərik:for while do-while for-i başlanğıc qeyd olunur şərt yoxlanır doğrudursa qiyməti artır
+while da oxşardı sadəcə ()içində şərt olur altında digərləri yazılır
+do-while ilə fərqi do şərtə baxmadan 100% yerinə yetirir.
+break ilə döngü dayanır continue ilə həmin hissə pas keçir
+4)operatorlar:riyazi:+ əlavə etmək - çıxmaq * vurmaq / bölmək % bölmək (qalıq götürülür) ** qüvvət üstü ++ bir vahid əlavə etmək -- vahid çıxmaq
+müqayisə:
+< kiçikdir
+> böyükdür
+<= kiçikdi bərabərdi
+>= böyükdü bərbərdi
+== qiymət bərabərdi
+=== həm qiymət həm tip bərabərdi
+!= qiymət bərabər deyil
+!==qiymət və tip bərabər deyil
+məntiqi:
+&& and
+||OR
+! not
+5)funksiyalar 3 cür olur decleration expression arrow
+decleration:
+function name(parametr){
+kod
+} kimi yazılır *QEYD declereation hostingdir yəni təyin olunduğu yerdən asılı olmayaraq istənilən yerdə çağrıla bilər.
+expression:
+const func=name(parametr){
+kod
+}kimi yazılır
+arrow:
+parametr=>kod (bir sətrdirsə) kimi yazılır
+func da döngünü qırmaq üçün return istifadə olunur
+return həmdə funksiyanın qaytardığı qiymətdir
+6)array metodlar:
+push-sona element əlavə etmək
+pop-sondan silmək
+unshift-başa əlavə etmək
+shift-başdan silmək
+flat-iç içə arrayləri birləşdirir
+concat-iki arr birləşdirir
+delete arr indeksini silir həmin hissə empty olaraq görsənir
+join-aralarına əlavə etmək
+length-arr uzunluğu(element sayı)
+at=arr[i]
